@@ -4,15 +4,15 @@
 ![Status](https://img.shields.io/badge/status-concluído-brightgreen?style=for-the-badge)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-success?style=for-the-badge)
  
-Programa em Java que calcula automaticamente o desconto e o valor final de uma compra em uma loja online, com base em regras progressivas de desconto conforme o valor total gasto.
+Programa em Java que calcula automaticamente o desconto e o valor final de um produto com base em regras progressivas de desconto conforme o valor total gasto.
  
 ---
  
 ## 📋 Sobre o projeto
  
-Este projeto foi desenvolvido como atividade prática do curso de **Desenvolvimento de Sistemas (ETEC)**, com o objetivo de aplicar os conceitos de **entrada de dados, estruturas condicionais, e operações matemáticas** em Java.
+Projeto foi desenvolvido como atividade prática do curso de **Desenvolvimento de Sistemas (ETEC)**, visando os conceitos de **entrada de dados, condicionais, e operações matemáticas** em Java.
  
-O sistema simula uma funcionalidade real de e-commerce: aplicar diferentes percentuais de desconto de acordo com faixas de valor da compra, calculando tanto o desconto quanto o valor final a ser pago pelo cliente.
+O sistema simula uma das funcionalidades de um e-commerce: aplicar diferentes percentuais de desconto de acordo com faixas de valor da compra, calculando o desconto e o valor final a ser pago pelo cliente.
  
 ---
  
@@ -26,7 +26,7 @@ O sistema simula uma funcionalidade real de e-commerce: aplicar diferentes perce
  
 ---
  
-## Como funciona o cálculo
+## Funcionamento
  
 ```
 desconto = valorCompra × (percentual / 100)
@@ -69,7 +69,7 @@ java Main
  
 ---
  
-## 💻 Exemplo de uso
+## 💻 Exemplo
  
 **Entrada:**
 ```
@@ -84,7 +84,7 @@ Valor final: 225.0
  
 ---
  
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tech Stack
  
 - **Java** (JDK) — linguagem principal do projeto
 - **Scanner** — classe nativa utilizada para capturar a entrada de dados do usuário via terminal
